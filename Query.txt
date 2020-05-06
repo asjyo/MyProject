@@ -1,0 +1,59 @@
+CREATE TABLE `auc_bid_details` (
+  `b_id` INT NOT NULL AUTO_INCREMENT,
+  `b_name` VARCHAR(45) NOT NULL,
+  `b_email` VARCHAR(45) NOT NULL,
+  `b_phone` VARCHAR(45) NULL,
+  `b_postal_address` VARCHAR(45) NULL,
+  `b_auction_price` INT NOT NULL,
+  `b_item_name` VARCHAR(45) NULL,
+  `b_item_model` VARCHAR(45) NULL,
+`b_status` VARCHAR(20),
+ PRIMARY KEY (b_id));
+
+CREATE TABLE  STRUTSUSER1 (
+name VARCHAR(30) NOT NULL,   
+    password VARCHAR(15) NOT NULL,   
+    email VARCHAR(30)  
+    ) 
+
+INSERT INTO strutsuser1 VALUES('seller'.'sellert','seller@gmail.com');
+
+Create table product(item_name varchar(40), item_mode varchar(45), Item_display varchar(30));
+
+
+
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>3.141.59</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
+<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>1.2.5</version>
+    <scope>test</scope>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->
+<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>1.2.5</version>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/junit/junit -->
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.13</version>
+    <scope>test</scope>
+</dependency>
+
+
+
+
